@@ -1,0 +1,151 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  height: 100vh;
+}
+
+.section-contact {
+  background: url(../images/BG.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.section-contact__title {
+  padding-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  margin-bottom: 20px;
+}
+
+.section-contact__subtitle {
+  max-width: 348px;
+  margin: 0 auto;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.section__wrapper {
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.form-section {
+  width: 558px;
+  margin-right: 12%;
+}
+
+.form__input {
+  min-height: 50px;
+  background: rgba(0, 196, 196, 0.5);
+  border: 0px;
+  border-left: 5.5px solid transparent;
+  display: block;
+  width: 100%;
+  outline: 0px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 16px 0 16px 22px;
+}
+
+.form__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.form__input:focus::-moz-placeholder {
+  color: transparent;
+}
+.form__input:focus:-moz-placeholder {
+  color: transparent;
+}
+.form__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form__input:focus {
+  font-weight: bold;
+  color: #ffffff;
+  background: #00c4c4;
+  border-left: 5.5px solid #355b82;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.form__input::-moz-placeholder {
+  color: #ffffff;
+} /*Firefox 19+*/
+.form__input:-moz-placeholder {
+  color: #ffffff;
+} /*Firefox 18-*/
+.form__input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form__area {
+  min-height: 250px;
+  resize: none;
+}
+
+.section__address {
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+
+.section__span {
+  font-weight: 400;
+}
+
+.footer {
+  background: #262626;
+}
+
+.footer__wrapper {
+  min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright,
+.footer__info {
+  color: #b9b9b9;
+  font-size: 16px;
+}
+
+.footer-logo a {
+  display: inline-block;
+  max-width: 64px;
+}
+
+.footer-logo a img {
+  width: 100%;
+}
+
+.footer__info {
+  font-size: 15px;
+}
+
+.footer__info span {
+  color: #e42a51;
+}
